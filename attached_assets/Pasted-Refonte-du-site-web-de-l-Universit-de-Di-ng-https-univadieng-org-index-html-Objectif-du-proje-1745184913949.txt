@@ -1,0 +1,104 @@
+Refonte du site web de l’Université de Diéng (https://univadieng.org/index.html)
+✅ Objectif du projet
+
+Refondre entièrement le site web actuel de l’Université de Diéng pour le rendre plus :
+
+    Moderne
+
+    Responsive
+
+    Esthétique
+
+    Clair et professionnel
+
+    Facile à maintenir et à mettre à jour
+
+💻 Technologies à utiliser
+
+    React.js : pour la structure et les composants dynamiques
+
+    Tailwind CSS : pour un design rapide, responsive et propre
+
+    Optionnel : React Router, Framer Motion, EmailJS, etc.
+
+🧩 Principaux problèmes à corriger dans le site actuel
+
+    Design obsolète :
+
+        Typographie peu lisible
+
+        Couleurs non harmonisées
+
+        Peu d'espacement et structure peu aérée
+
+    Navigation confuse :
+
+        Menu peu visible
+
+        Pas de menu sticky ou responsive
+
+    Manque de responsive design :
+
+        Le site ne s’adapte pas bien aux mobiles ou tablettes
+
+        Aucun menu hamburger ou section adaptée
+
+    Disposition des éléments :
+
+        Contenu mal hiérarchisé (aucune vraie "hero section")
+
+        Trop de texte sans structure visuelle claire
+
+        Absence d’icônes, cartes, sections différenciées
+
+    Aucune interactivité :
+
+        Pas de transitions, pas d’animations
+
+        Pas d’effets au survol
+
+        Pas de formulaire fonctionnel ou de feedback visuel
+
+🖼️ Éléments clés à intégrer dès le départ
+
+    ✅ Header clair et moderne :
+
+        Logo
+
+        Menu sticky
+
+        Navigation fluide vers les pages : Accueil, À propos, Formations, Actualités, Contact
+
+    ✅ Hero section impactante :
+
+        Grande image ou fond coloré
+
+        Slogan ou mission de l’université
+
+        Bouton d’appel à l’action (ex: Voir les formations)
+
+    ✅ Sections structurées :
+
+        Présentation de l’université
+
+        Liste des facultés/formations sous forme de cartes
+
+        Dernières actualités/articles
+
+        Témoignages (optionnel)
+
+        Partenaires ou accréditations
+
+    ✅ Footer fonctionnel :
+
+        Coordonnées
+
+        Réseaux sociaux
+
+        Liens rapides
+
+    ✅ Responsive design :
+
+        Menu hamburger sur mobile
+
+        Grille adaptative avec Tailwind (grid, flex, breakpoints, etc.)

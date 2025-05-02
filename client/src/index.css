@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+/* Animations pour le défilement infini des logos */
+@keyframes slide-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.logos-slide-animation-left {
+  animation: slide-left 50s linear infinite;
+  width: fit-content;
+}
+
+.logos-slide-animation-right {
+  animation: slide-right 50s linear infinite;
+  width: fit-content;
+}
+
+/* Pause l'animation au survol */
+.logos-slide-animation-left:hover,
+.logos-slide-animation-right:hover {
+  animation-play-state: paused;
+}
